@@ -28,6 +28,9 @@ public class Casting {
 			} else if (obj instanceof Rectangle) {
 				Rectangle rectangle = (Rectangle) obj;
 				System.out.println("Height: " + rectangle.getHeight());
+			} else if (obj instanceof String) {
+				String str = (String) obj;
+				System.out.println(str);
 			}
 		}
     }
