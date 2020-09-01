@@ -21,9 +21,14 @@ public class Casting {
 		for (Object obj: list) {
 			if (obj instanceof Circle) {
 				Circle circle = (Circle) obj;
-				System.out.println(circle.getRadius());
+				System.out.println("Radius: " + circle.getRadius());
+			} else if (obj instanceof Date) {
+				Date date = (Date) obj;
+				System.out.println("Date: " + date.toString());
+			} else if (obj instanceof Rectangle) {
+				Rectangle rectangle = (Rectangle) obj;
+				System.out.println("Height: " + rectangle.getHeight());
 			}
-			
 		}
     }
 }
