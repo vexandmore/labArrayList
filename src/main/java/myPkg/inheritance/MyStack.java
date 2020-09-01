@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Marc
+ * @author Marc-Scattolin
  */
 public class MyStack<E> extends ArrayList<E> {
 

@@ -7,7 +7,7 @@ package myPkg.casting;
 
 /**
  *
- * @author laura
+ * @author Marc-Scattolin
  */
 public class Casting {
 
