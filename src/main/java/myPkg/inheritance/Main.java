@@ -15,7 +15,7 @@ public class Main {
     Scanner input = new Scanner(System.in);
     
     MyStack stack = new MyStack();
-    
+    System.out.println("Enter 5 lines");
     for (int i = 0; i < 5; i++)
       stack.push(input.nextLine());
     
